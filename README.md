@@ -10,6 +10,7 @@
 7. git add将文件放入暂存区
 （了解了git有工作区，暂存区，历史提交）
 8. git commit -m "我的第一次尝试"(第一次的时候-m没有加，失败了)
+
 二.关于回滚
 git log检查
 git restore .可以回滚所有文件
@@ -23,11 +24,13 @@ git reset --soft 只回滚提交历史的改动
 4.在提交历史中改动保留改动记录
 git revert HEAD 创建一个新的commmit抵消原来的commit
 进入Vim界面用：wq返回
+
 三.使用gitignore忽略文件
 1. 创建个人学习笔记 vim notes.txt
 2. vim .gitigore 在gitignore中把想忽略的文件名填入,想忽略的文件就不会再被跟踪
 3. git add .gitignore
 4. git commit -m " 添加.gitignore"
+
 四.分支
 1. 需要分支的原因：master/main分支如果新添没做好的功能会不稳定
 2. 创建分支：git branch feature/功能名称 （feature/可去）
