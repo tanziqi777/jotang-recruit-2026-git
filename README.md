@@ -52,4 +52,4 @@ git  worktree add -b feature/stats ../名称 master（名称为新的worktree名
 完成后，先切换到master，合并然后删掉feature/stats分支
 然后切换到cd ../新的worktree名称
 git worktree remove ../新的worktree名称
-优势：共享和并行
+优势：共享和并行 
